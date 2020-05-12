@@ -1,3 +1,6 @@
+// Source code: https://bl.ocks.org/d3noob/8375092
+// Description of code: http://www.d3noob.org/2014/01/tree-diagrams-in-d3js_11.html
+
 var treeData = data;
 
 // ************** Generate the tree diagram	 *****************
@@ -15,11 +18,11 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
 	.projection(function(d) { return [d.y, d.x]; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chart").append("svg")
 	.attr("width", width + margin.right + margin.left)
-	.attr("height", height + margin.top + margin.bottom)
+  .attr("height", height + margin.top + margin.bottom)
   .append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 root = treeData[0];
 root.x0 = height / 2;

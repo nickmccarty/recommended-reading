@@ -2,26 +2,59 @@
 
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <title>Reading List</title>
+  <title>Reading List</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./static/css/style.css">
 
-  </head>
+</head>
 
-  <body>
+<body>
+
+<div id = "chart"></div>
+
+<div id="select">
+  <p>Tap/Click Book Title or Open Book from Here</p>
+  <ul>
+    <li><a>Statistics</a>
+      <ul>
+        <li><a href="https://greenteapress.com/wp/think-stats-2e/">Think Stats</a></li>
+        <li><a href="https://greenteapress.com/wp/think-bayes/">Think Bayes</a></li>
+        <li><a href="http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">Bayesian Methods for Hackers</a>
+      </ul>
+    </li>
+    <li><a>Git</a>
+      <ul>
+        <li><a href="https://git-scm.com/book/en/v2">Pro Git</a></li>
+      </ul>
+    </li>
+    <li><a>Data Science</a>
+      <ul>
+        <li><a href="https://www.datascienceatthecommandline.com/">Data Science at the Command Line</a></li>
+        <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a></li>
+        <li><a href="https://r4ds.had.co.nz/">R for Data Science</a>
+      </ul>
+    </li>
+    <li><a>Machine Learning</a>
+      <ul>
+        <li><a href="http://themlbook.com/wiki/doku.php">The Hundred-Page Machine Learning Book</a></li>
+        <li><a href="http://mlebook.com/wiki/doku.php">Machine Learning Engineering</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <!-- load the d3.js library -->	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-	
+
 <!-- load data and plot script -->
 <script type="text/javascript" src="./static/js/data.js"></script>
 <script type="text/javascript" src="./static/js/plot.js"></script>
-	
-  </body>
-  
+
+</body>
+
 </html>
