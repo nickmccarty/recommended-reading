@@ -25,13 +25,13 @@ var data = [
             ]
           },
           {
-            "name": "Git",
+            "name": "Version Control",
             "parent": "Reading List",
             "children": [
               {
                 "name": "Pro Git",
                 "url": "https://git-scm.com/book/en/v2",
-                "parent": "Git"
+                "parent": "Version Control"
               },
             ]
           },
