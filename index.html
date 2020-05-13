@@ -15,45 +15,43 @@
 
 <body>
 
-<div class = "row">
-
-  <div class = "col-8">
-    <div id = "chart"></div>
-  </div>
-
-  <div class="col-4">
-    <div id="select">
-      <p>Tap/Click Book Title or Open Book from Here:</p>
+<!-- <div class = "row"> -->
+<div id="select">
+  <p>Tap/Click Book Title or Open Book from Here:</p>
+  <ul>
+    <li><a>Statistics</a>
       <ul>
-        <li><a>Statistics</a>
-          <ul>
-            <li><u><a class = "dropdown_link" href="https://greenteapress.com/wp/think-stats-2e/">Think Stats</a></u></li>
-            <li><u><a class = "dropdown_link" href="https://greenteapress.com/wp/think-bayes/">Think Bayes</a></u></li>
-            <li><u><a class = "dropdown_link" href="http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">Bayesian Methods for Hackers</a>
-          </ul>
-        </li>
-        <li><a>Version Control</a>
-          <ul>
-            <li><u><a class = "dropdown_link" href="https://git-scm.com/book/en/v2">Pro Git</a></u></li>
-          </ul>
-        </li>
-        <li><a>Data Science</a>
-          <ul>
-            <li><u><a class = "dropdown_link" href="https://www.datascienceatthecommandline.com/">Data Science at the Command Line</a></u></li>
-            <li><u><a class = "dropdown_link" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a></u></li>
-            <li><u><a class = "dropdown_link" href="https://r4ds.had.co.nz/">R for Data Science</a></u>
-          </ul>
-        </li>
-        <li><a>Machine Learning</a>
-          <ul>
-            <li><u><a class = "dropdown_link" href="http://themlbook.com/wiki/doku.php">The Hundred-Page Machine Learning Book</a></u></li>
-            <li><u><a class = "dropdown_link" href="http://mlebook.com/wiki/doku.php">Machine Learning Engineering</a></u></li>
-          </ul>
-        </li>
+        <li><a href="https://greenteapress.com/wp/think-stats-2e/" id = "dropdown_link" style="text-decoration: underline">Think Stats</a></li>
+        <li><a href="https://greenteapress.com/wp/think-bayes/" id = "dropdown_link" style="text-decoration: underline">Think Bayes</a></li>
+        <li><a href="http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/" id = "dropdown_link" style="text-decoration: underline">Bayesian Methods for Hackers</a>
       </ul>
-    </div>
-  </div>
+    </li>
+    <li><a>Version Control</a>
+      <ul>
+        <li><a href="https://git-scm.com/book/en/v2" id = "dropdown_link" style="text-decoration: underline">Pro Git</a></li>
+      </ul>
+    </li>
+    <li><a>Data Science</a>
+      <ul>
+        <li><a href="https://www.datascienceatthecommandline.com/" id = "dropdown_link" style="text-decoration: underline">Data Science at the Command Line</a></li>
+        <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/" id = "dropdown_link" style="text-decoration: underline">Python Data Science Handbook</a></li>
+        <li><a href="https://r4ds.had.co.nz/" id = "dropdown_link" style="text-decoration: underline">R for Data Science</a>
+      </ul>
+    </li>
+    <li><a>Machine Learning</a>
+      <ul>
+        <li><a href="http://themlbook.com/wiki/doku.php" id = "dropdown_link" style="text-decoration: underline">The Hundred-Page Machine Learning Book</a></li>
+        <li><a href="http://mlebook.com/wiki/doku.php" id = "dropdown_link" style="text-decoration: underline">Machine Learning Engineering</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
+
+<div class = "col-md-12">
+  <div id = "chart"></div>
+</div>
+
+<!-- </div> -->
 
 <!-- load the d3.js library -->	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
