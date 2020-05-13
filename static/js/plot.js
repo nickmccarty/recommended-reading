@@ -59,7 +59,7 @@ function update(source) {
       var thisNode = d3.select(this);
       if (!d.children) {
           thisNode.append("a")
-              .attr("class", "tree_link")
+              .attr("id", "tree_link")
               .attr("style", "text-decoration: underline")
               .attr("xlink:href", function(d) { return d.url; })
               .append("text")

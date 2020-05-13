@@ -1,11 +1,11 @@
 var data = [
     {
-      "name": "Reading List",
+      "name": "Topic",
       "parent": "null",
       "children": [
         {
             "name": "Statistics",
-            "parent": "Reading List",
+            "parent": "Topic",
             "children": [
               {
                 "name": "Think Stats",
@@ -26,7 +26,7 @@ var data = [
           },
           {
             "name": "Version Control",
-            "parent": "Reading List",
+            "parent": "Topic",
             "children": [
               {
                 "name": "Pro Git",
@@ -37,7 +37,7 @@ var data = [
           },
           {
             "name": "Data Science",
-            "parent": "Reading List",
+            "parent": "Topic",
             "children": [
               {
                 "name": "Data Science at the Command Line",
@@ -58,7 +58,7 @@ var data = [
           },
           {
             "name": "Machine Learning",
-            "parent": "Reading List",
+            "parent": "Topic",
             "children": [
               {
                 "name": "The Hundred-Page Machine Learning Book",

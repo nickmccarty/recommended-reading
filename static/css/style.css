@@ -55,13 +55,13 @@
   background-color: #ddd;
 }
 
-.dropdown_link > a {
+#dropdown_link > text {
 
   color : steelblue
 
 }
 
-.tree_link > a {
+#tree_link > text {
 
   color : steelblue
 
