@@ -60,13 +60,12 @@ function update(source) {
       if (!d.children) {
           thisNode.append("a")
               .attr("id", "tree_link")
-              .attr("style", "text-decoration: underline")
+              .attr("style", "text-decoration: underline; color: steelblue;")
               .attr("xlink:href", function(d) { return d.url; })
               .append("text")
                   .attr("x", 15)
                   .attr("dy", 3)
                   .attr("text-anchor", "start")
-                  .attr("color", "steelblue")
                   .text(function(d) { return d.name; });
       } else {
           thisNode.append("text")
