@@ -66,6 +66,7 @@ function update(source) {
                   .attr("x", 15)
                   .attr("dy", 3)
                   .attr("text-anchor", "start")
+                  .attr("color", "steelblue")
                   .text(function(d) { return d.name; });
       } else {
           thisNode.append("text")
