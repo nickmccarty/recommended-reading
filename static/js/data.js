@@ -70,6 +70,11 @@ var data = [
                 "url": "http://www.mlebook.com/wiki/doku.php",
                 "parent": "Machine Learning"
               },
+              {
+                "name": "Information Theory, Inference, and Learning Algorithms",
+                "url": "http://www.inference.org.uk/mackay/itila/book.html",
+                "parent": "Machine Learning"
+              },
             ]
           },
       ]
