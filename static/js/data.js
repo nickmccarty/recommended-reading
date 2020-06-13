@@ -72,7 +72,7 @@ var data = [
               },
               {
                 "name": "Information Theory, Inference, and Learning Algorithms",
-                "url": "http://www.inference.org.uk/mackay/itila/book.html",
+                "url": "http://www.inference.org.uk/mackay/itprnn/ps/",
                 "parent": "Machine Learning"
               },
             ]
