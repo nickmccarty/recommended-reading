@@ -72,6 +72,17 @@ var data = [
               },
             ]
           },
+          {
+            "name": "Web Development",
+            "parent": "Topic",
+            "children": [
+              {
+                "name": "Eloquent JavaScript",
+                "url": "https://eloquentjavascript.net/",
+                "parent": "Web Development"
+              }
+            ]
+          },
       ]
     }
   ];
