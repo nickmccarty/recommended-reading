@@ -70,11 +70,17 @@ var data = [
                 "url": "http://www.mlebook.com/wiki/doku.php",
                 "parent": "Machine Learning"
               },
+            ]
+          },
+          {
+            "name": "Web Development",
+            "parent": "Topic",
+            "children": [
               {
-                "name": "Information Theory, Inference, and Learning Algorithms",
-                "url": "http://www.inference.org.uk/mackay/itprnn/ps/",
-                "parent": "Machine Learning"
-              },
+                "name": "Eloquent JavaScript",
+                "url": "https://eloquentjavascript.net/",
+                "parent": "Web Development"
+              }
             ]
           },
       ]
