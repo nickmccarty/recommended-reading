@@ -25,6 +25,17 @@ var data = [
             ]
           },
           {
+            "name": "Math",
+            "parent": "Topic",
+            "children": [
+              {
+                "name": "Linear Algebra",
+                "url": "http://joshua.smcvt.edu/linearalgebra/",
+                "parent": "Math"
+              },
+            ]
+          },
+          {
             "name": "Version Control",
             "parent": "Topic",
             "children": [
