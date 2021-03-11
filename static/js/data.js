@@ -30,7 +30,7 @@ var data = [
             "children": [
               {
                 "name": "Linear Algebra",
-                "url": "http://joshua.smcvt.edu/linearalgebra/",
+                "url": "https://hefferon.net/linearalgebra/",
                 "parent": "Math"
               },
             ]
